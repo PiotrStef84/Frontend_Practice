@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+body{
+    font-family: 'Releway', sans-serif;
+    height: 100vh;
+    background: #333 url('showcase.jpg') no-repeat center center / cover;
+    color: #ccc;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
