@@ -8,3 +8,15 @@ const TypeWriter = function(txtElement, words, wait = 3000){
     this.isDeleting = false;
 
 }
+
+// Type Method
+
+// Init On DOM Load
+document.addEventListener('DOMContentLoaded', init);
+
+// Init App
+
+function init(){
+    const txtElement = document.querySelector('.txt-type');
+    const words = JSON.parse(txtElement.getAttribute('data-words'));
+}
