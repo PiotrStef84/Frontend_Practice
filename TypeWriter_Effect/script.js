@@ -15,7 +15,6 @@ const TypeWriter = function(txtElement, words, wait = 3000){
 document.addEventListener('DOMContentLoaded', init);
 
 // Init App
-
 function init(){
     const txtElement = document.querySelector('.txt-type');
     const words = JSON.parse(txtElement.getAttribute('data-words'));
