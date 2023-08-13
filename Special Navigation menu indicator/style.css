@@ -40,8 +40,40 @@ nav a {
 #indicator {
     position: absolute;
     height: 75px;
-    width: 100%;
+    width: 150px;
     background: #29fd53;
     z-index: 1;
+    transition: 0.5;
+    display: none;
 
+}
+
+#indicator::before{
+    content: '';
+    position: absolute;
+    left: -30px;
+    width: 50px;
+    height: 15px;
+    background: #29fd53;
+    border-radius: 15px;
+    box-shadow: 15px 30px #29fd53, 
+    5px 60px #29fd53,
+    -15px 15px #222327,
+    -10px 45px #222327;
+    transition: 0.5;
+}
+
+#indicator::after{
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 50px;
+    height: 15px;
+    background: #29fd53;
+    border-radius: 15px;
+    box-shadow: 5px 30px #29fd53, 
+    -15px 60px #29fd53,
+    15px 15px #222327,
+    10px 45px #222327;
+    transition: 0.5;
 }
