@@ -27,5 +27,17 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    border-bottom: 1px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /* background: #fff; */
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, transparent, transparent, #0005);
+}
+
+.cloud {
+    position: relative;
+    width: 320px;
+    height: 100px;
+    background: #fff;
+    border-radius: 100px;
+    z-index: 100;
+    filter: drop-shadow(0 0 35px #fff);
 }
